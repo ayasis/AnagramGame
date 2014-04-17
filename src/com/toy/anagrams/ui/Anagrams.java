@@ -70,6 +70,7 @@ public class Anagrams extends JFrame {
         /* Create and display the form */
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
+                System.out.println(deneme);
                 new Anagrams().setVisible(true);
             }
         });
